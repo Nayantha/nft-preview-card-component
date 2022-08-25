@@ -1,0 +1,100 @@
+root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --White: hsl(0, 0%, 100%)
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+hr {
+    border: hsl(215, 32%, 27%) solid 1px;
+    margin: 0 0 20px 0;
+}
+#card {
+    position: relative;
+    width: 25%;
+    margin: 50px auto;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 10px 5px 10px 0;
+}
+#preview-img{
+    width: 100%;
+    margin: auto;
+    border-radius: 5%;
+}
+.hover-over-eye {
+    position: absolute;
+    width: 85%;
+    border-radius: 15px;
+    height: 51.5%;
+    background-color: hsl(178, 100%, 50%);
+    display: flex;
+    opacity: 0;
+}
+.hover-over-eye:hover {
+    background-color: hsla(178, 100%, 50%, 0.5);
+    opacity: 1;
+    cursor: pointer;
+}
+.hover-over-eye img {
+    margin: auto;
+}
+#preview-description > h2, #price-tag, p{
+    padding: 10px 0;
+}
+#preview-description > h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+#preview-description p {
+    color: hsl(215, 51%, 70%);
+}
+#preview-description > #price-tag {
+    padding-bottom: 20px;
+}
+#price-tag {
+    display: flex;
+    justify-content: space-between;
+}
+#price-tag div {
+    display: flex;
+    align-items: center;
+}
+#price-tag img {
+    padding-right: 5px;
+}
+#time-left {
+    color: hsl(215, 51%, 70%);
+}
+#price-amount {
+    color: hsl(178, 100%, 50%);
+}
+#author {
+    display: flex;
+    align-items: center;
+}
+#author .prior-to-author-name {
+    color: hsl(215, 51%, 70%);
+}
+#author img {
+    width: 12%;
+    margin-right: 15px;
+    border: white solid 1px;
+    border-radius: 100%;
+}
+#author-name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
