@@ -54,6 +54,7 @@ hr {
 #preview-description > h2, #price-tag, p{
     padding: 10px 0;
 }
+
 #preview-description > h2:hover{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
